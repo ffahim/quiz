@@ -1,0 +1,12 @@
+package com.ferdous.quiz.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+@Configuration
+@EnableAspectJAutoProxy
+@ComponentScan("com.ferdous.quiz.service")
+public class AopConfig {
+
+}
